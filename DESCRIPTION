@@ -3,55 +3,22 @@ Type: Package
 Title: Metaheuristic Algorithms with Explicit Exploration
 Description: Implementation of explicit exploration in different metaheuristic algorithms.
 Version: 1.0.0
-Authors@R: c(
-    person(
-      given="Rogelio", family="Salinas Gutiérrez", 
-      role = c("aut", "cre", "cph"),
-      email = "rogelio.salinas@edu.uaa.mx",
-      comment = c(ORCID = "0000-0002-1669-4460")
-    ),
-    person(
-      given="Cristina", family="Díaz Esquivel",
-      role = c("aut", "cph"),
-      email = "cristinaesquivel959@gmail.com",
-      comment = c(ORCID = "0009-0003-6990-5326")
-    ),
-    person(
-      given="Angela María", family="Gallegos Martínez",
-      role = c("aut", "cph"),
-      email = "angygallegosmtz@gmail.com",
-      comment = c(ORCID = "0009-0005-7032-0493")
-    ),
-    person(
-      given="Agustín", family="Moreno Cruz",
-      role = c("aut", "cph"),
-      email = "agustin.morcr@gmail.com"
-    ),
-    person(
-      given="Miguel Angel", family="Moreno Urbina",
-      role = c("aut", "cph"),
-      email = "migmorurb@gmail.com",
-      comment = c(ORCID = "0009-0008-0036-8936")
-    ),
-    person(
-      given="Pedro Abraham", family="Montoya Calzada",
-      role = c("aut", "cph"),
-      email = "pedroabraham.montoya@gmail.com",
-      comment = c(ORCID = "0009-0002-3497-210X")
-    ),
-    person(
-      given="Carlos Alberto", family="López Hernández",
-      role = c("aut", "cph"),
-      email = "carlos.lopezh@edu.uaa.mx",
-      comment = c(ORCID = "0009-0000-9428-1293")
-    ),
-    person(
-      given="Ilse Daniela", family="Saldivar Olvera",
-      role = c("aut", "cph"),
-      email = "al227455@edu.uaa.mx",
-      comment = c(ORCID = "0009-0002-2406-2946")
-    )
-  )
+Authors@R: c(person(given="Rogelio", family="Salinas Gutiérrez", role=c("aut", "cre", "cph"),
+                    email="rogelio.salinas@edu.uaa.mx", comment=c(ORCID="0000-0002-1669-4460")),
+             person(given="Cristina", family="Díaz Esquivel", role=c("aut", "cph"),
+                   email="cristinaesquivel959@gmail.com", comment=c(ORCID="0009-0003-6990-5326")),
+             person(given="Angela María", family="Gallegos Martínez", role=c("aut", "cph"),
+                    email="angygallegosmtz@gmail.com", comment=c(ORCID="0009-0005-7032-0493")),
+             person(given="Agustín", family="Moreno Cruz", role=c("aut", "cph"),
+                    email="agustin.morcr@gmail.com"),
+             person(given="Miguel Angel", family="Moreno Urbina", role=c("aut", "cph"),
+                    email="migmorurb@gmail.com", comment=c(ORCID="0009-0008-0036-8936")),
+             person(given="Pedro Abraham", family="Montoya Calzada", role=c("aut", "cph"),
+                    email="pedroabraham.montoya@gmail.com", comment=c(ORCID="0009-0002-3497-210X")),
+             person(given="Carlos Alberto", family="López Hernández", role=c("aut", "cph"),
+                    email="carlos.lopezh@edu.uaa.mx", comment=c(ORCID="0009-0000-9428-1293")),
+             person(given="Ilse Daniela", family="Saldivar Olvera", role=c("aut", "cph"),
+                    email="al227455@edu.uaa.mx", comment=c(ORCID="0009-0002-2406-2946")))
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
