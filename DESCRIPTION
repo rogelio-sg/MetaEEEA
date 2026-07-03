@@ -57,20 +57,20 @@ Encoding: UTF-8
 LazyData: true
 Imports: EEEA
 Author: Rogelio Salinas Gutiérrez [aut, cre, cph]
-         (<https://orcid.org/0000-0002-1669-4460>),
+          (<https://orcid.org/0000-0002-1669-4460>),
         Cristina Díaz Esquivel [aut, cph]
-        (<https://orcid.org/0009-0003-6990-5326>),
+          (<https://orcid.org/0009-0003-6990-5326>),
         Angela María Gallegos Martínez [aut, cph]
-        (<https://orcid.org/0009-0005-7032-0493>),
+          (<https://orcid.org/0009-0005-7032-0493>),
         Agustín Moreno Cruz [aut, cph],
         Miguel Angel Moreno Urbina [aut, cph]
-        (<https://orcid.org/0009-0008-0036-8936>),
+          (<https://orcid.org/0009-0008-0036-8936>),
         Pedro Abraham Montoya Calzada [aut, cph]
-        (<https://orcid.org/0009-0002-3497-210X>),
+          (<https://orcid.org/0009-0002-3497-210X>),
         Carlos Alberto López Hernández [aut, cph]
-        (<https://orcid.org/0009-0000-9428-1293),
+          (<https://orcid.org/0009-0000-9428-1293),
         Ilse Daniela Saldivar Olvera [aut, cph]
-        (<https://orcid.org/0009-0002-2406-2946>)
+          (<https://orcid.org/0009-0002-2406-2946>)
 Maintainer: Rogelio Salinas Gutiérrez <rogelio.salinas@edu.uaa.mx>
 Suggests: 
     testthat (>= 3.0.0)
