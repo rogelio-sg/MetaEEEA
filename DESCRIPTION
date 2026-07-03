@@ -72,3 +72,8 @@ Author: Rogelio Salinas Gutiérrez [aut, cre, cph]
         Carlos Alberto López Hernández [aut, cph],
         Ilse Daniela Saldivar Olvera [aut, cph]
         (<https://orcid.org/0009-0002-2406-2946>)
+Maintainer: Rogelio Salinas Gutiérrez <rsalinas@correo.uaa.mx>
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+

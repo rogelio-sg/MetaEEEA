@@ -14,7 +14,7 @@ boa_metaheuristic <- function(obj.fun, pop.size=30, dim=2, lb, ub, gen=100, pb=0
   if(EE == TRUE||EE == 1){
     pop.ee <-  ExplicitExploration(fun=obj.fun, lower=lb, upper=ub, n=pop.size, maxiter=gen, ...)
     P0 <- pop.ee$par
-    n.ee <- pop.ee$n.gen
+    n.ee <- pop.ee$n_gen
     gen <- gen-n.ee
   }else{
     P0 <- mapply(runif, lb, ub, MoreArgs=list(n=pop.size))

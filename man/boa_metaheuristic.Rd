@@ -95,7 +95,7 @@
   pb <- 20
   EE <- TRUE
 
-  res.sphere <- lbo_metaheuristic(obj.fun, pop.size, dim, lb, ub, gen, pb, EE)
+  res.sphere <- boa_metaheuristic(obj.fun, pop.size, dim, lb, ub, gen, pb, EE)
 
   cat("Best value on Sphere: ", paste(round(res.sphere$best.fit, 4),
       collapse=", "), "\n")

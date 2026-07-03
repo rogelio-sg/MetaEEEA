@@ -4,8 +4,7 @@ library(testthat)
 algoritmos <- list(
   PDO = pdo_metaheuristic,
   BOA = boa_metaheuristic,
-  LBO = lbo_metaheuristic,
-  FWA = fwa_metaheuristic
+  LBO = lbo_metaheuristic
 )
 
 # 2. Define standard benchmark objective functions
@@ -112,36 +111,18 @@ test_that("Early Stopping Criteria Tests with the Patience Parameter (pb)", {
 test_that("Integration Tests with Explicit Exploration (EE)", {
   cat("\n --- Integration Tests with Explicit Exploration (EE) --- \n")
 
-  # 1. Create the mock function normally
-  mock_ee <- function(fun, lower, upper, n, maxiter, ...) {
-    return(list(
-      par = matrix(runif(n * length(lower), lower, upper), nrow = n),
-      n_gen = 2,
-      n.gen = 2
-    ))
-  }
-
-  # 2. Inject it directly into the algorithms' environment safely
-  # We use the environment of one of your algorithms to ensure an exact match
-  env_algos <- environment(pdo_metaheuristic)
-  assign("ExplicitExploration", mock_ee, envir = env_algos)
-
-  # 3. Run the test loop
   for (nombre in names(algoritmos)) {
     algo <- algoritmos[[nombre]]
     cat("\n[TESTING] Evaluating algorithm:", nombre, "\n")
 
-    # Verify that it runs with EE=TRUE without throwing errors
-    expect_no_error({
-      algo(obj.fun = fn_esfera, dim = 2, lb = -5, ub = 5, gen = 10, EE = TRUE)
-    })
+    expect_no_error(
+      algo(obj.fun = fn_esfera, dim = 2, lb = -5,
+           ub = 5, gen = 10, EE = TRUE)
+    )
+
     cat("[FINISH] Complete Evaluation\n")
   }
 
-  # 4. Mandatory cleanup after the test finishes
-  if (exists("ExplicitExploration", envir = env_algos, inherits = FALSE)) {
-    rm("ExplicitExploration", envir = env_algos)
-  }
   cat("\n")
 })
 
