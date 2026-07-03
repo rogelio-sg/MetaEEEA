@@ -93,7 +93,4 @@
   Ezugwu, A. E., Agushaka, J. O., Abualigah, L., Mirjalili, S., & Gandomi, A. H. (2022).
   Prairie Dog Optimization Algorithm. \emph{Neural Computing and Applications}, vol 34,
   no. 22, pp. 20017-20065. Springer, London. \doi{10.1007/s00521-022-07530-9}
-
-  Abualigah, L. (2022). Prairie Dog Optimization Algorithm, \emph{MATLAB Central File Exchange}.
-  Retrieved June 2026. URL: https://www.mathworks.com/matlabcentral/fileexchange/110980-prairie-dog-optimization-algorithm
 }

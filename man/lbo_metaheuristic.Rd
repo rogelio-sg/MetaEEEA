@@ -108,8 +108,5 @@
 }
 
 \references{
-  Yang, X. S. (2010). Firefly algorithms for multimodal optimization. In \emph{Stochastic Algorithms: Foundations and Applications} (SAGA 2010). Lecture Notes in Computer Science, vol 6374, pp. 169-178. Springer, Berlin, Heidelberg. \doi{10.1007/978-3-642-15461-4_14}
-  Wang, P., et al. (2013). Seven-Spot Ladybird Optimization: A Novel and Efficient Metaheuristic Algorithm for Numerical Optimization. \emph{The Scientific World Journal}, 2013, 375809. \doi{10.1155/2013/375809}
-  Safiri, S., & Nikoofard, A. (2021). Design of optimal fractional-order PID controller for a quadrotor using ladybug beetle optimization algorithm. \emph{Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering}, 235(8), 1345-1357. \doi{10.1177/0959651820980537}
-  Safiri, S., & Nikoofard, A. (2022). Ladybug Beetle Optimization algorithm: application for real-world problems. \emph{Neural Computing and Applications}, 34, 21825-21848. \doi{10.1007/s00521-022-07598-x}
+  Safiri, S., & Nikoofard, A. (2022). Ladybug Beetle Optimization algorithm: application for real-world problems. \emph{The Journal of Supercomputing}, 79, 3511-3560. \doi{10.1007/s11227-022-04755-2}
 }
