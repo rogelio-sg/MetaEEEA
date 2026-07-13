@@ -10,7 +10,7 @@ Authors@R: c(person(given="Rogelio", family="Salinas Gutiérrez", role=c("aut", 
              person(given="Angela María", family="Gallegos Martínez", role=c("aut", "cph"),
                     email="angygallegosmtz@gmail.com", comment=c(ORCID="0009-0005-7032-0493")),
              person(given="Agustín", family="Moreno Cruz", role=c("aut", "cph"),
-                    email="agustin.morcr@gmail.com"),
+                    email="agustin.morcr@gmail.com", comment=c(ORCID="0009-0009-9214-7002")),
              person(given="Miguel Angel", family="Moreno Urbina", role=c("aut", "cph"),
                     email="migmorurb@gmail.com", comment=c(ORCID="0009-0008-0036-8936")),
              person(given="Pedro Abraham", family="Montoya Calzada", role=c("aut", "cph"),
@@ -29,7 +29,8 @@ Author: Rogelio Salinas Gutiérrez [aut, cre, cph]
           (<https://orcid.org/0009-0003-6990-5326>),
         Angela María Gallegos Martínez [aut, cph]
           (<https://orcid.org/0009-0005-7032-0493>),
-        Agustín Moreno Cruz [aut, cph],
+        Agustín Moreno Cruz [aut, cph]
+          (<https://orcid.org/0009-0009-9214-7002>),
         Miguel Angel Moreno Urbina [aut, cph]
           (<https://orcid.org/0009-0008-0036-8936>),
         Pedro Abraham Montoya Calzada [aut, cph]
