@@ -1,7 +1,7 @@
 Package: MetaEEEA
 Type: Package
 Title: Metaheuristic Algorithms with Explicit Exploration
-Description: Implementation of explicit exploration in different metaheuristic algorithms.
+Description: Solves single-objective optimization problems by using bio-inspired metaheuristic algorithms. The implemented metaheuristics are the Butterfly Optimization Algorithm, the Ladybug Beetle Optimization Algorithm and the Prairie Dog Optimization Algorithm. For all these optimization algorithms, the search of optimal values can be reinforced with the explicit exploration strategy proposed by Salinas-Gutiérrez and Muñoz Zavala (2023) <doi:10.1016/j.asoc.2023.110230>.
 Version: 1.0.0
 Authors@R: c(person(given="Rogelio", family="Salinas Gutiérrez", role=c("aut", "cre", "cph"),
                     email="rogelio.salinas@edu.uaa.mx", comment=c(ORCID="0000-0002-1669-4460")),
